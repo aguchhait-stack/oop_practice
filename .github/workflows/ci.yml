@@ -14,6 +14,8 @@ jobs:
         with:
           python-version: '3.11'
       - run: python main.py
+      - run: pip install pytest
+      - run: python -m pytest tests/
       
 
              
